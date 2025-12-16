@@ -10,6 +10,7 @@ Objective
 This research project aims to develop a robust, data-driven logistics pricing model for 20-ton (20t) and 30-ton (30t) tipper trucks. The primary goal is to compare the performance of three popular machine learning regression algorithms—Linear Regression, Random Forest, and K-Nearest Neighbors (KNN)—in predicting the Cost per Ton based solely on the  Radius Distance (km). The final outcome is a clear recommendation on the most effective model for future pricing decisions.
 
 Methodology
+
 Data Source and Preparation
 The analysis was based on the provided dataset: "Area distances.xlsx - Sheet1.csv".
 •	Feature: Radius_km (Distance in kilometers)
@@ -25,13 +26,18 @@ Three machine learning models were selected to represent different approaches to
 
 
 Evaluation Metrics
+
 Model performance was assessed using the following metrics:
-•	R-squared (R^2): Represents the proportion of the variance for a dependent variable that's explained by the independent variables. A value closer to 1.0 indicates a better fit.
-•	Mean Absolute Error (MAE): The average magnitude of the errors in a set of predictions, without considering their direction. It is expressed in the same units as the target variable (Cost/ton), making it highly interpretable.
+
+1.R-squared (R^2): Represents the proportion of the variance for a dependent variable that's explained by the independent variables. A value closer to 1.0 indicates a better fit.
+
+2.Mean Absolute Error (MAE): The average magnitude of the errors in a set of predictions, without considering their direction. It is expressed in the same units as the target variable (Cost/ton), making it highly interpretable.
 
 
 Results and Interpretation
+
 Model Performance Comparison
+
 The models were trained and tested on the historical data. The consolidated performance results are presented below:
 
 
