@@ -1,0 +1,4 @@
+Model,20t Cost Prediction ($/ton),30t Cost Prediction ($/ton)
+Linear Regression,$5.72,$5.26
+Random Forest,$6.04,$5.93
+KNN,$4.34,$4.19
