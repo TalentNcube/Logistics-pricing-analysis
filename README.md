@@ -39,6 +39,7 @@ Results and Interpretation
 Model Performance Comparison
 
 The models were trained and tested on the historical data. The consolidated performance results are presented below:
+https://github.com/TalentNcube/Logistics-pricing-analysis/blob/589ef77a40f598cf1bc9e53a1293f7cc4e70f54e/MAE_Comparison-checkpoint.png
 
 
 
