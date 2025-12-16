@@ -1,6 +1,7 @@
 # Logistics-pricing-analysis
 ##Logistics Pricing Modeling: A Comparative Analysis of Machine Learning Techniques for Tipper Cost Estimation
 #Introduction
+
 ##Project Background
 The efficient and competitive pricing of logistics services, particularly for bulk material transport using tipper trucks, is crucial for operational profitability. Traditional pricing methods often rely on fixed distance rates, which can fail to capture nuanced market dynamics and result in either lost revenue or lost bids.
 
@@ -8,6 +9,7 @@ The efficient and competitive pricing of logistics services, particularly for bu
 This research project aims to develop a robust, data-driven logistics pricing model for 20-ton (20t) and 30-ton (30t) tipper trucks. The primary goal is to compare the performance of three popular machine learning regression algorithms—Linear Regression, Random Forest, and K-Nearest Neighbors (KNN)—in predicting the Cost per Ton based solely on the Magaya Radius Distance (km). The final outcome is a clear recommendation on the most effective model for future pricing decisions.
 
 #Methodology
+
 ##Data Source and Preparation
 The analysis was based on the provided dataset: "Area distances.xlsx - Sheet1.csv".
 •	Feature: MRadius_km (Distance in kilometers)
@@ -26,6 +28,7 @@ Model performance was assessed using the following metrics:
 •	Mean Absolute Error (MAE): The average magnitude of the errors in a set of predictions, without considering their direction. It is expressed in the same units as the target variable (Cost/ton), making it highly interpretable.
 
 #Results and Interpretation
+
 ##Model Performance Comparison
 The models were trained and tested on the historical data. The consolidated performance results are presented below:
 
