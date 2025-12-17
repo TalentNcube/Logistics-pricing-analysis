@@ -79,19 +79,4 @@ The Random Forest Regressor is the recommended model for real-world deployment d
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3.1 Model Performance Comparison
 The models were trained and tested on the historical data. The consolidated performance results are presented below:
