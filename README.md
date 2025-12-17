@@ -42,6 +42,46 @@ The models were trained and tested on the historical data. The consolidated perf
 https://github.com/TalentNcube/Logistics-pricing-analysis/blob/589ef77a40f598cf1bc9e53a1293f7cc4e70f54e/MAE_Comparison-checkpoint.png
 
 
+Interpretation of Performance
+
+1.	Random Forest Superiority: The Random Forest model clearly outperformed both Linear Regression and KNN for both 20t and 30t costs. An R2 of 0.9347 for the 20t tipper indicates that the model explains over 93% of the cost variability based on distance, confirming its robustness.
+   
+3.	MAE Significance: The Random Forest's MAE of $1.31/ton for the 20t tipper means that, on average, its prediction is only off by approximately $1.31 per ton, a highly acceptable error margin for a pricing model.
+   
+4. Linear Relationship Confirmation: Despite Random Forest performing better, Linear Regression still achieved a strong R^2 (above 0.84 for both), confirming a fundamental strong linear correlation between distance and the cost per ton, which is a key principle in logistics pricing.
+
+   
+
+Visual Analysis (Linear Regression Trend)
+
+The scatter plots demonstrate the strong linear trend in the underlying data. The closely fitted line confirms that as distance increases, the cost per ton consistently rises.
+
+
+
+
+
+7. New Area Cost Prediction
+The developed models were used to predict the cost per ton for a hypothetical new area with a distance of 50.0 km.
+
+
+
+
+
+
+
+Prediction Interpretation
+
+1.Random Forest (Recommended Price): Based on its superior performance metrics (R^2 and MAE), the Random Forest predictions are the most reliable. The suggested price for a 50 km trip would be $6.04/ton for the 20t tipper and $5.93/ton for the 30t tipper.
+2.Model Variance: The discrepancy in predictions highlights the models' different approach: KNN's prediction is lower as it averages the costs of the 5 closest historical data points, while Random Forest uses a complex tree structure built on all data to extrapolate, which is generally more accurate.
+
+
+Conclusion
+
+This research successfully developed and compared three machine learning models for logistics pricing based on distance.
+The Random Forest Regressor is the recommended model for real-world deployment due to its superior accuracy (highest  R^2 and lowest MAE) across both tipper capacities. Its ability to account for minor non-linear fluctuations in the distance-cost relationship provides the most reliable price estimates. The project provides a strong foundation for optimizing pricing strategies using predictive analytics, moving beyond fixed rate cards to a dynamic, data-driven approach.
+
+
+
 
 
 
