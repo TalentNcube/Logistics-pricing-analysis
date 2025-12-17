@@ -76,7 +76,3 @@ Conclusion
 
 This research successfully developed and compared three machine learning models for logistics pricing based on distance.
 The Random Forest Regressor is the recommended model for real-world deployment due to its superior accuracy (highest  R^2 and lowest MAE) across both tipper capacities. Its ability to account for minor non-linear fluctuations in the distance-cost relationship provides the most reliable price estimates. The project provides a strong foundation for optimizing pricing strategies using predictive analytics, moving beyond fixed rate cards to a dynamic, data-driven approach.
-
-
-
-The models were trained and tested on the historical data. The consolidated performance results are presented below:
