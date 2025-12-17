@@ -58,7 +58,7 @@ The scatter plots demonstrate the strong linear trend in the underlying data. Th
 
 https://github.com/TalentNcube/Logistics-pricing-analysis/blob/9fa8c7c0c82ddd39368c2338f115661c7652de9b/30t_Tipper_Linear_Regression_Plot.png
 
-
+https://github.com/TalentNcube/Logistics-pricing-analysis/blob/158ead3e37ac902926c3142bbbc7bb60c2f64582/20t_Tipper_Linear_Regression_Plot.png
 
 7. New Area Cost Prediction
 The developed models were used to predict the cost per ton for a hypothetical new area with a distance of 50.0 km.
