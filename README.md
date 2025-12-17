@@ -63,10 +63,7 @@ https://github.com/TalentNcube/Logistics-pricing-analysis/blob/158ead3e37ac90292
 7. New Area Cost Prediction
 The developed models were used to predict the cost per ton for a hypothetical new area with a distance of 50.0 km.
 
-
-
-
-
+https://github.com/TalentNcube/Logistics-pricing-analysis/blob/b32682651418c6a67e09f34d25480436864d6a72/new_area_cost_predictions.csv
 
 
 Prediction Interpretation
