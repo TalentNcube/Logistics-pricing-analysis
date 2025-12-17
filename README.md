@@ -56,7 +56,7 @@ Visual Analysis (Linear Regression Trend)
 
 The scatter plots demonstrate the strong linear trend in the underlying data. The closely fitted line confirms that as distance increases, the cost per ton consistently rises.
 
-
+https://github.com/TalentNcube/Logistics-pricing-analysis/blob/9fa8c7c0c82ddd39368c2338f115661c7652de9b/30t_Tipper_Linear_Regression_Plot.png
 
 
 
